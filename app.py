@@ -16,7 +16,7 @@ if binary_output:
     variables = [symbols(chr(65 + i)) for i in range(num_inputs)]
     simplified_expr = SOPform(variables, minterms)
 
-    # Display the simplified Boolean expression
+    # Display the simplified Boolean expression for the user
     st.write(f"**Simplified Boolean Expression:** `{simplified_expr}`")
 
     # Generate truth table
